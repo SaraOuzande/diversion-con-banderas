@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restcountries App</title>
-  <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversión con Banderas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Información sobre Países</h1>
-  <div id="countries-list"></div>
+    <h1>Diversión con Banderas</h1>
+    <div class="container" id="countries-container"></div>
+    
+    <!-- Modal para detalles del país -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close-btn">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
 
-  <script src="./js/script.js"></script>
+    <!-- Coloca el script al final del body -->
+    <script src="script.js"></script>
 </body>
 </html>
